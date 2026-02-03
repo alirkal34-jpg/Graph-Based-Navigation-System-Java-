@@ -32,19 +32,4 @@ I conducted a benchmark test comparing DFS and Dijkstra on a dataset of 81 citie
 > **Insight:** *Analysis shows that while DFS is fast for direct connections, Dijkstra provides stability and accuracy for complex, multi-node routing scenarios.*
 
 ## 📂 Project Structure
-├── src/
-│   ├── algorithms/
-│   │   ├── DijkstraAlgorithm.java       # Core pathfinding logic
-│   │   ├── DFSAlgorithm.java            # Basic Depth First Search traversal
-│   │   ├── DFSShortestAlgorithm.java    # DFS implementation specific for pathfinding
-│   │   └── ShortestPathComparison.java  # Benchmarking module (Dijkstra vs DFS metrics)
-│   ├── structures/
-│   │   ├── Graph.java                   # Adjacency List Implementation
-│   │   ├── List.java                    # Custom Dynamic Array (ArrayList alternative)
-│   │   ├── Stack.java                   # Custom LIFO Stack implementation
-│   │   └── PathResult.java              # Helper class to store route results
-│   ├── Main.java                        # Entry point and user interface
-│   └── CSVParser.java                   # Utility to parse cities.csv dataset
-├── data/
-│   └── cities.csv                       # Dataset containing 81 cities and distances
-└── README.md
+<img width="1239" height="512" alt="image" src="https://github.com/user-attachments/assets/ca4fb49d-a984-4257-a97f-cabd60db1f5d" />
